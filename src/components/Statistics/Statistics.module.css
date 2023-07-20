@@ -1,0 +1,46 @@
+ .statisticsContainer {
+    max-width: 50%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ceb6b6;
+  }
+  
+  .title {
+    margin: 0;
+    padding: 32px;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+    font-size: 35px;
+    background-color: #fff;
+  }
+  
+  .statList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+    padding: 0;
+   }
+  
+ 
+ .statList > .statListItem,
+  .statList > .statListItemNoTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+  
+  .label {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  
+  .percentage {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+ 
